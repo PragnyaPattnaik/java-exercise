@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class comparenumbers{
+    Scanner input=new Scanner(System.in);
+    int number1;
+    int number2;
+    Syatem.out.printl("Input 1st integer: ");
+    number1 = input.nextInt();
+    system.out.println("input 2nd integer: ");
+    number1= input.nextInt();
+    if (number1 == number2)
+     System.out.printf("%d ==%d\n", number1,number2);
+    if(number1>number2)
+     System.out.printf("%d >%d\n", number1,number2);
+    if(number1<number2)
+     System.out.printf("%d != %d\n",number1,number2);
+}
